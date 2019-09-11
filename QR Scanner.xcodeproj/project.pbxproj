@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		74E9EE5F23296FFC006C6E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9EE5E23296FFC006C6E6C /* AppDelegate.swift */; };
-		74E9EE6123296FFC006C6E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9EE6023296FFC006C6E6C /* ViewController.swift */; };
 		74E9EE6423296FFC006C6E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9EE6223296FFC006C6E6C /* Main.storyboard */; };
 		74E9EE6623296FFF006C6E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E9EE6523296FFF006C6E6C /* Assets.xcassets */; };
 		74E9EE6923296FFF006C6E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9EE6723296FFF006C6E6C /* LaunchScreen.storyboard */; };
+		74E9EE73232970BD006C6E6C /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9EE72232970BD006C6E6C /* QRCodeViewController.swift */; };
+		74E9EE7523297803006C6E6C /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9EE7423297803006C6E6C /* QRScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74E9EE5B23296FFC006C6E6C /* QR Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E9EE5E23296FFC006C6E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74E9EE6023296FFC006C6E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74E9EE6323296FFC006C6E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74E9EE6523296FFF006C6E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74E9EE6823296FFF006C6E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74E9EE6A23296FFF006C6E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E9EE72232970BD006C6E6C /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		74E9EE7423297803006C6E6C /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				74E9EE5E23296FFC006C6E6C /* AppDelegate.swift */,
-				74E9EE6023296FFC006C6E6C /* ViewController.swift */,
 				74E9EE6223296FFC006C6E6C /* Main.storyboard */,
 				74E9EE6523296FFF006C6E6C /* Assets.xcassets */,
 				74E9EE6723296FFF006C6E6C /* LaunchScreen.storyboard */,
+				74E9EE72232970BD006C6E6C /* QRCodeViewController.swift */,
+				74E9EE7423297803006C6E6C /* QRScannerViewController.swift */,
 				74E9EE6A23296FFF006C6E6C /* Info.plist */,
 			);
 			path = "QR Scanner";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E9EE6123296FFC006C6E6C /* ViewController.swift in Sources */,
+				74E9EE73232970BD006C6E6C /* QRCodeViewController.swift in Sources */,
 				74E9EE5F23296FFC006C6E6C /* AppDelegate.swift in Sources */,
+				74E9EE7523297803006C6E6C /* QRScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
