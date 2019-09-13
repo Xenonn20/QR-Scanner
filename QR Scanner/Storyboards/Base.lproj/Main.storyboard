@@ -43,23 +43,20 @@
                         <viewLayoutGuide key="safeArea" id="GYy-Ur-d2R"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="iaL-F5-rIA"/>
-                    <connections>
-                        <outlet property="tabBar" destination="iaL-F5-rIA" id="BYp-TC-Aur"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fpW-Db-Jez" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="513.04347826086962" y="14.732142857142856"/>
         </scene>
-        <!--Scan-->
+        <!--Scanner-->
         <scene sceneID="boD-5J-fXE">
             <objects>
-                <viewController title="Scan" id="gwg-kX-oAp" customClass="QRScannerViewController" customModule="QR_Scanner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Scanner" id="gwg-kX-oAp" customClass="QRScannerViewController" customModule="QR_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZP7-G7-T4c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No QR code is detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zah-eR-26l">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No QR code or Barcode is detected" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zah-eR-26l">
                                 <rect key="frame" x="0.0" y="744" width="414" height="30"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
