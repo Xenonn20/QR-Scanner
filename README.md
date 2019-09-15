@@ -1,5 +1,5 @@
 # QR-Scanner
 QR and barcode scanner.
 
-<img src='https://s8.hostingkartinok.com/uploads/thumbs/2019/09/a2501b1e2db066f04943a2991269c702.png' alt='Yes' /></a>
-<img src='https://s8.hostingkartinok.com/uploads/thumbs/2019/09/bbc9420c632075d51204f01fba44dbd8.png' alt='Yes' /></a>
+<img src="https://cdn1.savepice.ru/uploads/2019/9/15/9f0b44618908a56dfd43fd950fb722ea-full.jpg" border="0"/></a>
+<img src="https://cdn1.savepice.ru/uploads/2019/9/15/233401b908eb1f635508bf5ea3d288a0-full.jpg" border="0"/></a>
